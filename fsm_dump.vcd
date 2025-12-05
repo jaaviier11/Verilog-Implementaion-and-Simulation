@@ -1,0 +1,277 @@
+$date
+	Mon Dec 01 10:05:10 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module FSM_Core_tb $end
+$var wire 1 ! SW_sig $end
+$var wire 1 " SE_sig $end
+$var wire 1 # RH_FSM_sig $end
+$var wire 1 $ OTAR_sig $end
+$var wire 1 % MOT_out $end
+$var wire 1 & LED_out $end
+$var wire 1 ' HTR_out $end
+$var wire 1 ( HMD_out $end
+$var wire 1 ) FAN_out $end
+$var wire 1 * BUZZER_out $end
+$var reg 1 + A_tb $end
+$var reg 1 , BP_tb $end
+$var reg 1 - BT_tb $end
+$var reg 1 . CLK $end
+$var reg 1 / HR_tb $end
+$var reg 1 0 LC_tb $end
+$var reg 1 1 RESET_N $end
+$var reg 1 2 RH_tb $end
+$scope module I_LOGIC $end
+$var wire 1 + A_bin $end
+$var wire 1 , BP_bin $end
+$var wire 1 - BT_bin $end
+$var wire 1 / HR_bin $end
+$var wire 1 0 LC_bin $end
+$var wire 1 $ OTAR_out $end
+$var wire 1 # RH_FSM $end
+$var wire 1 2 RH_IN $end
+$var wire 1 ! SW_out $end
+$var wire 1 " SE_out $end
+$var wire 2 3 Risk_Count_wire [1:0] $end
+$upscope $end
+$scope module UUT_FSM $end
+$var wire 1 . CLK $end
+$var wire 1 4 J0 $end
+$var wire 1 5 J1 $end
+$var wire 1 6 K0 $end
+$var wire 1 7 K1 $end
+$var wire 1 $ OTAR $end
+$var wire 1 8 Q0_next_calc $end
+$var wire 1 9 Q1_next_calc $end
+$var wire 1 1 RESET_N $end
+$var wire 1 # RH_IN $end
+$var wire 1 " SE $end
+$var wire 1 ! SW $end
+$var wire 1 : Q1 $end
+$var wire 1 ; Q0 $end
+$var reg 1 * BUZZER $end
+$var reg 1 ) FAN $end
+$var reg 1 ( HMD $end
+$var reg 1 ' HTR $end
+$var reg 1 & LED $end
+$var reg 1 % MOT $end
+$var reg 2 < current_state [1:0] $end
+$var reg 2 = next_state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 =
+b0 <
+0;
+0:
+09
+08
+17
+16
+05
+04
+b0 3
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+1(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#5000
+1.
+#10000
+0.
+#15000
+1.
+#20000
+0.
+11
+#25000
+1.
+#30000
+0.
+#35000
+1.
+#40000
+b10 =
+19
+07
+15
+1'
+1)
+0(
+1$
+0.
+1#
+12
+1+
+10
+#45000
+1%
+1'
+1)
+1:
+b10 <
+1.
+#50000
+0.
+#55000
+1.
+#60000
+0.
+#65000
+1.
+#70000
+0.
+#75000
+1.
+#80000
+b0 =
+09
+17
+05
+1(
+1%
+0'
+0)
+0$
+0.
+0#
+02
+0+
+00
+#85000
+0%
+1(
+0:
+b0 <
+1.
+#90000
+0.
+#95000
+1.
+#100000
+0.
+#105000
+1.
+#110000
+0.
+#115000
+1.
+#120000
+b1 =
+18
+14
+06
+1'
+1)
+0(
+1!
+0.
+1#
+12
+b1 3
+1/
+#125000
+1&
+0'
+0)
+1;
+b1 <
+1.
+#130000
+0.
+#135000
+1.
+#140000
+0.
+#145000
+1.
+#150000
+0.
+#155000
+1.
+#160000
+b11 =
+19
+07
+15
+0!
+0.
+1"
+b10 3
+1,
+#165000
+1*
+1&
+1:
+b11 <
+1.
+#170000
+0.
+#175000
+1.
+#180000
+0.
+#185000
+1.
+#190000
+0.
+#195000
+1.
+#200000
+09
+b0 =
+08
+17
+16
+05
+04
+0.
+0,
+0"
+b0 3
+0/
+#205000
+1'
+1)
+0&
+0*
+0:
+0;
+b0 <
+1.
+#210000
+0.
+#215000
+1.
+#220000
+0.
+#225000
+1.
+#230000
+0.
+#235000
+1.
+#240000
+0.
